@@ -1,6 +1,6 @@
 tell application "Finder"
 	set musicFolder to "Macintosh HD:Users:huytrinh:Music:"
-	set pace3musicFolder to "PACE3:Music:"
+	set pace3musicFolder to "PACE 3:Music:"
 	set fileList to every file in folder musicFolder whose name extension is "mp3"
 	set pace3fileList to every file in folder pace3musicFolder whose name extension is "mp3"
 	set mp3Names to {}
